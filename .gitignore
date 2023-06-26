@@ -1,0 +1,6 @@
+__pycache__
+.venv
+
+master_chooser/storage/DEVS.yml
+master_chooser/storage/REMAINING.yml
+master_chooser/storage/CURRENT

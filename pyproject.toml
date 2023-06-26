@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "master-chooser"
+version = "0.1.0"
+description = "Simply choose your weekly team master"
+authors = ["Noam Tamir <noam.tamir@gmail.com>"]
+readme = "README.md"
+packages = [{include = "master_chooser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyYAML = "^6.0"
+
+[tool.poetry.scripts]
+choose-master = "master_chooser.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
